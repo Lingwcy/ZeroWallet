@@ -1,0 +1,89 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\1.png" />
+    <None Remove="Assets\2.png" />
+    <None Remove="Assets\3.png" />
+    <None Remove="Assets\4.png" />
+    <None Remove="Assets\icon\back.png" />
+    <None Remove="Assets\icon\network.png" />
+	  <None Remove="Assets\icon\network2.png" />
+	<None Remove="Assets\icon\zero.png" />
+	  <None Remove="Assets\icon\data.png" />
+	  <None Remove="Assets\icon\yum.png" />
+	  <None Remove="Assets\icon\note.png" />
+	  <None Remove="Assets\icon\wallet.png" />
+	  <None Remove="Assets\icon\BTC.png" />
+	  <None Remove="Assets\icon\ETH.png" />
+	  <None Remove="Assets\icon\ZeroWallet.png" />
+	  <None Remove="Assets\icon\close.png" />
+	  <None Remove="Assets\icon\small.png" />
+    <None Remove="Assets\setting.png" />
+	  
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\icon\back.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\icon\network.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+	  <Resource Include="Assets\icon\network2.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Resource>
+	<Resource Include="Assets\icon\zero.png">
+		<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	</Resource>
+	  <Resource Include="Assets\icon\ZeroWallet.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Assets\icon\BTC.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Assets\icon\ETH.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Assets\icon\close.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Assets\icon\small.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Resource>
+    <Resource Include="Assets\setting.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+	  <Resource Include="Assets\icon\yum.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Assets\icon\note.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Assets\icon\data.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Assets\icon\wallet.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Resource>
+  </ItemGroup>
+
+</Project>
